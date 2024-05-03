@@ -7,7 +7,7 @@ const Header =  () => {
     <div className="border-b-2 border-b-purple-500 py-6">
       <div className="container mx-auto flex justify-between items-center">
         <Link to="/">
-          <h1 className="text-purple-600 font-bold tracking-tight">
+          <h1 className="text-orange-600 font-bold tracking-tight">
             MERNEats.com
           </h1>
         </Link>

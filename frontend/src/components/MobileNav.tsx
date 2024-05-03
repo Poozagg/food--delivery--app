@@ -8,13 +8,13 @@ export default function MobileNav() {
     <Sheet>
       <SheetTrigger>
         {/* menu icon from lucide library */}
-        <Menu className="text-purple-600"/>
+        <Menu className="text-orange-600"/>
       </SheetTrigger>
       <SheetContent>
         <SheetTitle>Welcome to mernEats.com! </SheetTitle>
         <Separator className="my-4"/>
         <SheetDescription className="flex">
-          <Button className="flex-1 font-bold bg-purple-600"> Log In </Button>
+          <Button className="flex-1 font-bold bg-orange-600"> Log In </Button>
         </SheetDescription>
       </SheetContent>
 </Sheet>
