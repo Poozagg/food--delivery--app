@@ -8,14 +8,14 @@ export default function MainNav(){
     <span className='flex space-x-2 items-center'>
       {isAuthenticated ? (<UsernameMenu/>
       ) : (
-        <Button
-          variant="ghost"
-          className="font-bold hover:text-purple-600 hover:bg-white"
-          onClick={async () => await loginWithRedirect()}
-        >
-          Log In
-        </Button>
-        )}
+      <Button
+        variant="ghost"
+        className="font-bold hover:text-purple-600 hover:bg-white"
+        onClick={async () => await loginWithRedirect()}
+      >
+        Log In
+      </Button>
+      )}
     </span>
   )
 }
